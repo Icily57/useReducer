@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  font: 1rem sans-serif;
+  background-color: aqua;
+  color: navy;
+  font-size: 1.5rem;
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    border: purple;
+
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .joke {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 0.2em #ccc;
+
+    .joke-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+      gap: 1em;
+      border: 1px solid aqua;
+
+      .btn{
+        border: 1px solid darkorchid;
+        border-radius: 0.5em;
+        width: 90px;
+        background-color: darkorchid;
+        color: white;
+
+      }
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+  }
+
+  input {
+    padding: 0.2em;
+    border-radius: 0.5em;
+    border: 1px solid #ccc;
+    width: 70%;
+    text-align: center;
+    background-color: plum;
+    width: 40%;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
